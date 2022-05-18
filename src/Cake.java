@@ -30,7 +30,7 @@ void introductionCake(){
                 "\nНазвание: "+getName() +
                 "\nВес: " + getMassa() +
                 "\"Радиус: " + getRadius()+
-                "\nЦена: "+ getPrice();
+                "\nЦена: "+ getPrice()+"сом";
         return message;
     }
 }

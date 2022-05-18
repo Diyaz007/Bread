@@ -12,6 +12,8 @@ System.out.println("--------------");
 Pita pita1 = new Pita();
 pita1.PitaMes();
 pita1.setName("Элитный лаваш из Дилижана");
+pita1.setRadius(30);
+pita1.setTolshina(0.2);
 pita1.setMassa(100);
 pita1.setPrice(25);
 System.out.println(pita1);

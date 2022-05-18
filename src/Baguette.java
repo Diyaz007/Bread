@@ -24,7 +24,7 @@ public class Baguette extends LoafOfBread{
                 "\nВес: " + getMassa() +
                 "\nДлинна: "+ getDlinna()+
                 "\nКоличество рубцов: "+ getNumberOfPieces()+
-                "\nЦена: "+ getPrice();
+                "\nЦена: "+ getPrice()+"сом";
         return message;
     }
 

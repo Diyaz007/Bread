@@ -40,7 +40,7 @@ private int price;
         String message = "Тип: Булка" +
                 "\nНазвание: "+getName() +
                 "\nВес: " + getMassa() +
-                "\nЦена: "+ getPrice();
+                "\nЦена: "+ getPrice()+"сом";
         return message;
     }
     void LoafOfBreadMes(){
