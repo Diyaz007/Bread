@@ -24,12 +24,19 @@ void introductionCake(){
        varnish();
         packed();
     }
+    public void checkMassa(){
+    if(getMassa()<=0){
+        System.out.println("------ВНИМАНИЕ------");
+        System.out.println("НЕ ПОКУПАЙТЕ ЭТУ ЛЕПЁШКУ" +
+                "\nЭТА ЛЕПЕШКА ПОДДЕЛКА!!!");
+    }
+    }
     @Override
     public String toString(){
         String message = "Тип: Лепешка" +
                 "\nНазвание: "+getName() +
                 "\nВес: " + getMassa() +
-                "\"Радиус: " + getRadius()+
+                "\nРадиус: " + getRadius()+
                 "\nЦена: "+ getPrice()+"сом";
         return message;
     }
