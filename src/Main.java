@@ -34,7 +34,7 @@ System.out.println("---------------");
 Cake cake = new Cake();
 cake.CakeMes();
 cake.setName("Лепешка в тандыре");
-cake.setMassa(30);
+cake.setMassa(20);
 cake.setRadius(15);
 cake.setPrice(25);
 System.out.println(cake);

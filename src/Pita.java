@@ -19,9 +19,9 @@ public class Pita extends LoafOfBread{
     }
     public String toString(){
         String message = "Тип: Лаваш" +
+                "\nНазвание: "+getName() +
                 "\nРадиус: "+getRadius()+
                 "\nТолщина: "+getTolshina()+
-                "\nНазвание: "+getName() +
                 "\nВес: " + getMassa() +
                 "\nЦена: "+ getPrice()+"сом";
         return message;
